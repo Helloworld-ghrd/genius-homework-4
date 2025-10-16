@@ -5,7 +5,13 @@
   overflow: visible;
   z-index: 1;
 
-  @media screen and (min-width: $bp-tablet) {
+  // @media screen and (min-width: $bp-tablet) {
+  //   padding: 32px 0;
+  //   background: rgba(255, 255, 255, 0.25);
+  //   backdrop-filter: blur(5px);
+  // }
+
+  @media screen and (min-width: $bp-desktop) {
     padding: 32px 0;
     background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(5px);
@@ -27,7 +33,11 @@
   &__logo {
     width: 50px;
 
-    @media screen and (min-width: $bp-tablet) {
+    // @media screen and (min-width: $bp-tablet) {
+    //   width: 74px;
+    // }
+
+    @media screen and (min-width: $bp-desktop) {
       width: 74px;
     }
   }
@@ -35,13 +45,20 @@
   &__menu {
     display: none;
 
-    @media screen and (min-width: $bp-tablet) {
+    // @media screen and (min-width: $bp-tablet) {
+    //   display: flex;
+    //   flex-grow: 1;
+    //   justify-content: space-between;
+    // }
+
+    // @media screen and (min-width: $bp-hm-tab) {
+    //   gap: 56px;
+    //   justify-content: center;
+    // }
+
+    @media screen and (min-width: $bp-desktop) {
       display: flex;
       flex-grow: 1;
-      justify-content: space-between;
-    }
-
-    @media screen and (min-width: $bp-hm-tab) {
       gap: 56px;
       justify-content: center;
     }
@@ -55,7 +72,11 @@
   &__social {
     display: none;
 
-    @media screen and (min-width: $bp-tablet) {
+    // @media screen and (min-width: $bp-tablet) {
+    //   display: flex;
+    // }
+
+    @media screen and (min-width: $bp-desktop) {
       display: flex;
     }
   }
@@ -79,7 +100,11 @@
     padding: 0;
     fill: var(--color-brand-white);
 
-    @media screen and (min-width: $bp-tablet) {
+    // @media screen and (min-width: $bp-tablet) {
+    //   display: none;
+    // }
+
+    @media screen and (min-width: $bp-desktop) {
       display: none;
     }
   }
