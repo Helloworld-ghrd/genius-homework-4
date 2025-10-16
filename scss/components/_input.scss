@@ -1,0 +1,35 @@
+.input {
+  &__control {
+    margin: 0 auto;
+    padding: 16px 24px;
+    width: 100%;
+    max-width: 241px;
+    height: 46px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 1.2;
+    color: var(--color-brand-white);
+    border: 1.5px solid var(--color-sec-gray-light);
+    border-radius: 24px;
+    background-color: transparent;
+
+    @media screen and (min-width: $bp-tablet) {
+      padding: 18px 33px;
+      max-width: 310px;
+      height: 52px;
+      border: 2px solid var(--color-sec-gray-light);
+      border-radius: 32px;
+    }
+
+    &:focus {
+      background-color: var(--color-sec-gray-light);
+      outline: none;
+    }
+
+    &::placeholder {
+      color: var(--color-brand-white);
+      font-size: 13px;
+      line-height: 1.2;
+    }
+  }
+}

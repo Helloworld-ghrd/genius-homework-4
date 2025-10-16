@@ -1,0 +1,8 @@
+@mixin bg-shift($max: 50px, $minW: 1280px, $maxW: 1920px, $x: 50%) {
+  --shift: clamp(
+    0px,
+    calc(#{$max} * ((100vw - #{$minW}) / (#{$maxW} - #{$minW}))),
+    #{$max}
+  );
+  background-position: #{$x} calc(50% + var(--shift));
+}

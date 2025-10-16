@@ -1,0 +1,17 @@
+:root {
+  scroll-behavior: smooth;
+  --color-brand-white: #ffffff;
+  --color-brand-light: #2b7fff;
+  --color-brand-dark: #011c44;
+  --color-sec-gray-dark: #4a4a4a;
+  --color-sec-gray-light: #747272;
+  --color-sec-black: #000000;
+  --color-sec-yellow: #ffd02b;
+  --color-sec-blue-dark: #011f4a;
+}
+
+$bp-mobile: 480px;
+$bp-tablet: 768px;
+$bp-hm-tab: 862px;
+$bp-sm-tab: 930px;
+$bp-desktop: 1280px;

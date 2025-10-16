@@ -1,0 +1,33 @@
+.why-us-section {
+  position: relative;
+  margin-top: 25px;
+  padding-top: 104px;
+  padding-bottom: 40px;
+
+  @media screen and (min-width: $bp-tablet) {
+    padding-top: 176px;
+    padding-bottom: 96px;
+  }
+
+  &__title {
+    margin: 0 auto 24px;
+
+    @media screen and (min-width: $bp-tablet) {
+      margin-bottom: 48px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+      gap: 56px;
+    }
+  }
+}

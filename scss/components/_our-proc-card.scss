@@ -1,0 +1,109 @@
+.our-proc-card {
+  display: flex;
+  justify-content: flex-end;
+  width: 320px;
+  height: 416px;
+  padding: 0 72px 24px 0;
+  border-radius: 3.66422px 109.927px;
+  transition: transform 0.2s;
+
+  @media screen and (min-width: $bp-tablet) {
+    width: 344px;
+    height: 456px;
+    padding: 0 77px 32px 0;
+    border-radius: 4px 120px 4px 120px;
+  }
+
+  &:hover {
+    transform: scale(0.95);
+  }
+
+  &__image-1 {
+    background-image: linear-gradient(
+        180.05deg,
+        rgba(1, 28, 68, 0) 48.53%,
+        rgba(1, 28, 68, 0.725825) 84.61%,
+        #011c44 101.39%
+      ),
+      url('../images/proc-1.jpg');
+    background-size: cover;
+    background-position: center;
+
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          180.05deg,
+          rgba(1, 28, 68, 0) 48.53%,
+          rgba(1, 28, 68, 0.725825) 84.61%,
+          #011c44 101.39%
+        ),
+        url('../images/proc-1@2x.jpg');
+    }
+  }
+
+  &__image-2 {
+    background-image: linear-gradient(
+        180.05deg,
+        rgba(1, 28, 68, 0) 48.53%,
+        rgba(1, 28, 68, 0.725825) 84.61%,
+        #011c44 101.39%
+      ),
+      url('../images/proc-2.jpg');
+    background-size: cover;
+    background-position: center;
+
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          180.05deg,
+          rgba(1, 28, 68, 0) 48.53%,
+          rgba(1, 28, 68, 0.725825) 84.61%,
+          #011c44 101.39%
+        ),
+        url('../images/proc-2@2x.jpg');
+    }
+  }
+
+  &__image-3 {
+    background-image: linear-gradient(
+        180.05deg,
+        rgba(1, 28, 68, 0) 48.53%,
+        rgba(1, 28, 68, 0.725825) 84.61%,
+        #011c44 101.39%
+      ),
+      url('../images/proc-3.jpg');
+    background-size: cover;
+    background-position: center;
+
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          180.05deg,
+          rgba(1, 28, 68, 0) 48.53%,
+          rgba(1, 28, 68, 0.725825) 84.61%,
+          #011c44 101.39%
+        ),
+        url('../images/proc-3@2x.jpg');
+    }
+  }
+
+  &__title {
+    display: flex;
+    align-self: flex-end;
+    max-width: 152px;
+    margin-bottom: 0;
+    color: var(--color-brand-white);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 22px;
+      line-height: 1.18;
+    }
+  }
+}

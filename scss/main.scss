@@ -1,0 +1,31 @@
+@import './base';
+
+@import './utils/fonts';
+@import './utils/keyframes';
+@import './utils/mixins';
+@import './utils/texts';
+@import './utils/utils';
+@import './utils/variables';
+
+@import './components/buttons';
+@import './components/carousel-button';
+@import './components/cover';
+@import './components/input';
+@import './components/links';
+@import './components/our-proc-card';
+@import './components/pagination';
+@import './components/stars';
+@import './components/why-us-card';
+
+@import './layouts/about-us-section';
+@import './layouts/contact-section';
+@import './layouts/container';
+@import './layouts/footer';
+@import './layouts/form';
+@import './layouts/header';
+@import './layouts/hero-section';
+@import './layouts/mobile-menu';
+@import './layouts/modal';
+@import './layouts/our-proc-section';
+@import './layouts/section';
+@import './layouts/why-us-section';

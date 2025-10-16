@@ -1,0 +1,18 @@
+.text-brand {
+  &__bold {
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  &__color {
+    color: var(--color-brand-light);
+  }
+
+  &__capitalize {
+    text-transform: capitalize;
+  }
+
+  &__centered {
+    text-align: center;
+  }
+}

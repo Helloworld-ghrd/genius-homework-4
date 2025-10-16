@@ -1,0 +1,61 @@
+@keyframes spin {
+  0% {
+    transform: scale(1) rotate(0);
+  }
+  25% {
+    transform: scale(0.75) rotate(90deg);
+    background-color: transparent;
+  }
+  50% {
+    transform: scale(1) rotate(180deg);
+  }
+  75% {
+    transform: scale(0.5) rotate(270deg);
+    background-color: transparent;
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+@keyframes increase {
+  0% {
+    transform: scale(1) rotate(0);
+  }
+  25% {
+    transform: scale(1.5) rotate(90deg);
+    background-color: transparent;
+  }
+  50% {
+    transform: scale(1) rotate(180deg);
+  }
+  75% {
+    transform: scale(2) rotate(270deg);
+    background-color: transparent;
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: scale(1) rotate(0);
+  }
+  25% {
+    fill: var(--color-brand-light);
+    transform: scale(0.75) rotate(90deg);
+    background-color: transparent;
+  }
+  50% {
+    transform: scale(1) rotate(180deg);
+  }
+  75% {
+    fill: var(--color-sec-gray-light);
+    transform: scale(0.5) rotate(270deg);
+    background-color: transparent;
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}

@@ -1,0 +1,16 @@
+.link {
+  text-decoration: none;
+  transition: color 0.2s;
+
+  &:hover {
+    color: var(--color-brand-light);
+  }
+
+  &__icon {
+    transition: 0.2s;
+
+    &:hover {
+      fill: var(--color-brand-light);
+    }
+  }
+}

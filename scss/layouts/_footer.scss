@@ -1,0 +1,182 @@
+.footer {
+  position: relative;
+  background-color: var(--color-brand-dark);
+  background-image: url('../images/footer-mobile-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 32px 0 66px;
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('../images/footer-mobile-bg@2x.png');
+  }
+
+  @media screen and (min-width: $bp-tablet) {
+    background-image: url('../images/footer-background.png');
+    padding: 56px 0;
+
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('../images/footer-background@2x.png');
+    }
+  }
+
+  &::after {
+    @media screen and (min-width: $bp-desktop) {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 246px;
+      height: 152px;
+      background-image: url('../images/pinosol.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: '';
+
+      @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        width: 246px;
+        height: 152px;
+        background-image: url('../images/pinosol@2x.png');
+        content: '';
+      }
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: -16px;
+    }
+
+    @media screen and (min-width: $bp-desktop) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__logo-container {
+    margin-bottom: 42px;
+  }
+
+  &__logo {
+    width: 57px;
+
+    @media screen and (min-width: $bp-tablet) {
+      width: 83px;
+    }
+  }
+
+  &__nav {
+    margin-bottom: 16px;
+  }
+
+  &__link {
+    color: var(--color-brand-white);
+    font-size: 14px;
+    line-height: 1.14;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 16px;
+      line-height: 1.19;
+    }
+  }
+
+  &__icon {
+    width: 32px;
+    height: 32px;
+    fill: var(--color-brand-white);
+
+    @media screen and (min-width: $bp-tablet) {
+      width: 42px;
+      height: 42px;
+    }
+  }
+
+  &__menu,
+  &__address-section,
+  &__address-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    @media screen and (min-width: $bp-tablet) {
+      align-items: flex-start;
+    }
+  }
+
+  &__address {
+    display: none;
+
+    @media screen and (min-width: $bp-tablet) {
+      display: block;
+    }
+  }
+
+  &__address-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+    @media screen and (min-width: $bp-tablet) {
+      align-items: flex-start;
+      gap: 16px;
+    }
+  }
+
+  &__address-social {
+    display: none;
+
+    @media screen and (min-width: $bp-desktop) {
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+    }
+  }
+
+  &__policy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+    }
+  }
+
+  &__social {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
+    @media screen and (min-width: $bp-desktop) {
+      display: none;
+    }
+  }
+
+  &__address-copyright {
+    color: var(--color-sec-gray-light);
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 0;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 13px;
+      line-height: 1.15;
+    }
+  }
+}

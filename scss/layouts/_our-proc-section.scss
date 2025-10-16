@@ -1,0 +1,52 @@
+.our-proc-section {
+  padding-bottom: 40px;
+
+  @media screen and (min-width: $bp-tablet) {
+    padding-bottom: 96px;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+
+    @media screen and (min-width: $bp-tablet) {
+      margin-bottom: 48px;
+    }
+  }
+
+  &__slider {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 0;
+
+    @media screen and (min-width: $bp-tablet) {
+      padding: 0 12px;
+    }
+  }
+
+  &__container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__list {
+    position: absolute;
+    margin-bottom: 16px;
+
+    @media screen and (min-width: $bp-tablet) {
+      margin-bottom: 32px;
+    }
+  }
+
+  &__item {
+    justify-items: center;
+  }
+
+  &__button {
+    display: none;
+
+    @media screen and (min-width: $bp-sm-tab) {
+      display: flex;
+    }
+  }
+}
