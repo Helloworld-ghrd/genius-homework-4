@@ -284,13 +284,16 @@
               Як нас <span class="text-brand__color">знайти</span>
             </h2>
             <div class="contact-section__container">
-              <iframe
-                class="contact-section__map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9400613933917!2d30.5181289!3d50.4422171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C7LiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwgNSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1757509934742!5m2!1sru!2sua"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
+              <div class="contact-section__map-container">
+                <iframe
+                  class="contact-section__map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9400613933917!2d30.5181289!3d50.4422171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C7LiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwgNSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1757509934742!5m2!1sru!2sua"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+
               <div class="contact-section__form">
                 <h3 class="form__title">
                   Запишіться
@@ -343,6 +346,52 @@
                       required
                     />
                   </div>
+
+                  <!-- <div class="contact-section__field">
+                    <label class="form-label visually-hidden" for="user-name">
+                      Ваше ім'я та прізвище
+                    </label>
+                    <input
+                      class="input__control"
+                      type="text"
+                      name="user-name"
+                      id="user-name"
+                      placeholder="Ваше ім'я та прізвище"
+                      pattern="^[Є-ЯҐа-їґ]+\s[Є-ЯҐа-їґ]+$"
+                      title="Введіть два слова кирилицею"
+                      required
+                    />
+                  </div>
+                  <div class="contact-section__field">
+                    <label class="form-label visually-hidden" for="user-tel">
+                      Ваш номер телефону
+                    </label>
+                    <input
+                      class="input__control"
+                      type="tel"
+                      name="user-tel"
+                      id="user-tel"
+                      placeholder="Ваш номер телефону"
+                      pattern="^\+[0-9]{12}"
+                      title="приклад +380671112233"
+                      required
+                    />
+                  </div>
+                  <div class="contact-section__field">
+                    <label class="form-label visually-hidden" for="user-email">
+                      Ваша електронна пошта
+                    </label>
+                    <input
+                      class="input__control"
+                      type="email"
+                      name="user-email"
+                      id="user-email"
+                      placeholder="Ваша електронна пошта"
+                      pattern=".+@.+"
+                      required
+                    />
+                  </div> -->
+
                   <button class="button form__button" type="submit">
                     Записатись бескоштовно
                   </button>
