@@ -5,10 +5,6 @@
   align-items: center;
   height: 100%;
 
-  // @media screen and (min-width: $bp-tablet) {
-  //   height: calc(670px + max(0px, (100vw - 1920px) * 0.3));
-  // }
-
   @media screen and (min-width: $bp-desktop) {
     height: calc(670px + max(0px, (100vw - 1920px) * 0.3));
   }
@@ -26,19 +22,10 @@
     background-size: 250% 140px;
     z-index: -1;
 
-    // @media screen and (min-width: $bp-tablet) {
-    //   bottom: 0;
-    //   height: calc(158px + max(0px, (100vw - 1920px) * 0.025));
-    //   background-position: 100%;
-    //   background-size: cover;
-    // }
-
     @media screen and (min-width: $bp-tablet) {
       background-position: 60% 100%;
       background-size: 150% 140px;
     }
-
-    // верх поредактировать
 
     @media screen and (min-width: $bp-desktop) {
       bottom: 0;
@@ -50,10 +37,6 @@
 
   &__container {
     padding: 71px 0px 69px;
-
-    // @media screen and (min-width: $bp-tablet) {
-    //   padding: 123px 106px 126px;
-    // }
 
     @media screen and (min-width: $bp-desktop) {
       padding: 123px 106px 126px;
@@ -73,23 +56,10 @@
     background-size: cover;
     z-index: -1;
 
-    // @media screen and (min-width: $bp-tablet) {
-    //   top: 0;
-    //   left: clamp(0px, 20vw, 311px);
-    //   right: -24px;
-    //   bottom: -30px;
-    //   background: url(../images/bg-hero.jpg);
-    //   background-repeat: no-repeat;
-    //   @include bg-shift(50px, 1380px, 1920px, 50%);
-    //   background-size: cover;
-    // }
-
     @media screen and (min-width: $bp-tablet) {
       background-position: 50% 35%;
       background-size: 90% auto;
     }
-
-    // верх переделать
 
     @media screen and (min-width: $bp-desktop) {
       top: 0;
@@ -121,22 +91,6 @@
       background-size: cover;
       z-index: -1;
 
-      // @media screen and (min-width: $bp-tablet) {
-      //   left: clamp(calc(-311px + -38px), -20vw, 0px);
-      //   right: 0;
-      //   bottom: 0;
-      //   background: linear-gradient(
-      //     89.38deg,
-      //     #ffffff 30.62%,
-      //     rgba(255, 255, 255, 0.850898) 41.31%,
-      //     rgba(255, 255, 255, 0.193204) 58.65%,
-      //     rgba(255, 255, 255, 0) 72.78%
-      //   );
-      //   background-repeat: no-repeat;
-      //   background-position: center bottom;
-      //   background-size: cover;
-      // }
-
       @media screen and (min-width: $bp-desktop) {
         left: clamp(calc(-311px + -38px), -20vw, 0px);
         right: 0;
@@ -156,12 +110,7 @@
   }
 
   &__content {
-    // max-width: 529px;
     margin: 0 auto;
-
-    // @media screen and (min-width: $bp-tablet) {
-    //   margin: 0;
-    // }
 
     @media screen and (min-width: $bp-desktop) {
       max-width: 529px;
@@ -201,7 +150,6 @@
       margin-bottom: 48px;
       font-size: 108px;
       line-height: 83px;
-      // text-align: center;
     }
 
     @media screen and (min-width: $bp-desktop) {
@@ -219,10 +167,6 @@
     width: 238px;
     margin: 0 auto;
 
-    // @media screen and (min-width: $bp-tablet) {
-    //   margin: 0;
-    // }
-
     @media screen and (min-width: $bp-desktop) {
       margin: 0;
     }
@@ -230,10 +174,6 @@
 
   &__button {
     align-self: center;
-
-    // @media screen and (min-width: $bp-tablet) {
-    //   align-self: flex-start;
-    // }
 
     @media screen and (min-width: $bp-desktop) {
       align-self: flex-start;
